@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "bumpp -r"
   },
   "keywords": [],
   "author": "hunghg255",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "bumpp": "^9.1.1"
+  }
 }
