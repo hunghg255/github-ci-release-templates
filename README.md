@@ -2,7 +2,7 @@
 
 ## FLow
 
-![](public/flow.png)
+![](public/flow2.png)
 
 ## Release
 
