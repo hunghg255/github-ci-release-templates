@@ -1,5 +1,9 @@
 # Github CI release template
 
+## FLow
+
+![](public/flow.png)
+
 ## Release
 
 ```
