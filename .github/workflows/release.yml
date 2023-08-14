@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: 18.x
 
-      - run: npx changelogithub
+      - run: npx changeloggithub
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 

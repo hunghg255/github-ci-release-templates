@@ -7,7 +7,7 @@
 Messages must be matched by the following regex:
 
 ``` js
-/^(revert: )?(feat|fix|docs|dx|style|refactor|perf|test|workflow|build|ci|chore|types|wip)(\(.+\))?: .{1,50}/
+/^(revert: )?(feat|fix|docs|dx|style|refactor|perf|test|workflow|build|ci|chore|types|wip)(\(.+\))?(\:|\!\:) .{1,50}/
 ```
 
 #### Examples
@@ -89,4 +89,7 @@ The footer should contain any information about **Breaking Changes** and is also
 reference GitHub issues that this commit **Closes**.
 
 **Breaking Changes** should start with the word `BREAKING CHANGE:` with a space or two newlines. The rest of the commit message is then used for this.
-1
+
+```
+feat!: breaking change / feat(scope)!: rework API
+```

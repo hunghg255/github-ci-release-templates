@@ -10,6 +10,12 @@
 npm run release
 ```
 
+## Write Changelog
+
+```
+npx changeloggithub@latest --output ./CHANGELOG-v1.0.3.md
+```
+
 ## Convention commit
 [Convention](https://www.conventionalcommits.org/en/v1.0.0/#examples)
 
@@ -36,7 +42,15 @@ npm run release
 
 - test: Adding missing tests or correcting existing tests
 
-- !: flag important commit
+- dx: Developer Experience
+
+- types: Typescript related changes
+
+- wip: Work in progress
+
+- workflow: Changes to the build process or auxiliary tools and libraries such as documentation generation
+
+- !: flag breaking news
 ```
 
 ## Exmaple
