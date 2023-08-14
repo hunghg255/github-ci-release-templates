@@ -4,6 +4,9 @@ console.log('Feature 3');
 
 console.log('feature !');
 
+console.log(1);
+
+
 
 // add multi commit
 
