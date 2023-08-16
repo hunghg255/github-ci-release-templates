@@ -18,13 +18,13 @@
 ### &nbsp;&nbsp;&nbsp;🚨 Breaking Changes
 
 - Breaking change &nbsp;-&nbsp; by **hunghg255** [<samp>(fdc28)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/fdc2890)
-- **news**: Breaking change &nbsp;-&nbsp; by **hunghg255** [<samp>(12fc1)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/12fc1f3)
+- Breaking change &nbsp;-&nbsp; by **hunghg255** [<samp>(12fc1)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/12fc1f3)
 
 ### &nbsp;&nbsp;&nbsp;🚀 Features
 
 - Config husky &nbsp;-&nbsp; by **hunghg255** [<samp>(eae08)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/eae08c0)
 - Test1 &nbsp;-&nbsp; by **hunghg255** [<samp>(b31bb)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/b31bbdd)
-- **login**: Login &nbsp;-&nbsp; by **hunghg255** [<samp>(f81c9)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/f81c952)
+- Login &nbsp;-&nbsp; by **hunghg255** [<samp>(f81c9)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/f81c952)
 
 ### &nbsp;&nbsp;&nbsp;🔥 Performance
 
@@ -65,12 +65,11 @@
 
 - Add image flow &nbsp;-&nbsp; by **hunghg255** [<samp>(9a98e)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/9a98e72)
 - Update flow &nbsp;-&nbsp; by **hunghg255** [<samp>(65866)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/6586626)
+- V1.1.0 &nbsp;-&nbsp; by **hunghg255** [<samp>(aec0c)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/aec0c70)
+- V1.2.0 &nbsp;-&nbsp; by **hunghg255** [<samp>(0c1b4)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/0c1b490)
 - Update version &nbsp;-&nbsp; by **hunghg255** [<samp>(206d6)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/206d6dc)
 - Chore &nbsp;-&nbsp; by **hunghg255** [<samp>(445de)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/445de97)
 - Release v1.0.3 &nbsp;-&nbsp; by **hunghg255** [<samp>(af275)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/af275b9)
-- **release**:
-  - V1.1.0 &nbsp;-&nbsp; by **hunghg255** [<samp>(aec0c)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/aec0c70)
-  - V1.2.0 &nbsp;-&nbsp; by **hunghg255** [<samp>(0c1b4)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/0c1b490)
 
 ### &nbsp;&nbsp;&nbsp;✅ Tests
 
@@ -109,8 +108,8 @@
 
 ### &nbsp;&nbsp;&nbsp;🐞 Fixes
 
+- Fix bug feature 1 &nbsp;-&nbsp; by **hunghg255** [<samp>(592ac)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/592ac59)
 - Prevent racing of requests &nbsp;-&nbsp; by **hunghg255** [<samp>(6aad2)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/6aad2d3)
-- **feature 1**: Fix bug feature 1 &nbsp;-&nbsp; by **hunghg255** [<samp>(592ac)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/592ac59)
 
 ### &nbsp;&nbsp;&nbsp;💅 Refactors
 
@@ -119,8 +118,8 @@
 
 ### &nbsp;&nbsp;&nbsp;📖 Documentation
 
+- Add docs build &nbsp;-&nbsp; by **hunghg255** [<samp>(32aef)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/32aef96)
 - Update readme &nbsp;-&nbsp; by **hunghg255** [<samp>(b6b66)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/b6b661e)
-- **doc build**: Add docs build &nbsp;-&nbsp; by **hunghg255** [<samp>(32aef)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/32aef96)
 
 ### &nbsp;&nbsp;&nbsp;🏡 Chore
 
