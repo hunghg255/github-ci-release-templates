@@ -7,7 +7,8 @@
     "release": "bumpp -r",
     "prepare": "husky install",
     "verify-commit": "node ./scripts/verifyCommit.js",
-    "lint": "echo \"No linting configured\""
+    "lint": "echo \"No linting configured\"",
+    "postinstall": "husky install"
   },
   "keywords": [],
   "author": "hunghg255",
