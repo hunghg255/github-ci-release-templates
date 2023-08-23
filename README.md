@@ -1,8 +1,5 @@
 # Github CI release template
 
-## FLow
-
-![](public/flow2.png)
 
 ## Install
 
@@ -21,6 +18,11 @@ npm run release
 ```
 npx changeloggithub@latest --output ./CHANGELOG-v1.0.3.md
 ```
+
+## FLow
+
+![](public/flow2.png)
+
 
 ## Convention commit
 [Convention](https://www.conventionalcommits.org/en/v1.0.0/#examples)
