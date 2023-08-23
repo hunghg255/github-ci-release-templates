@@ -4,18 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "release": "bumpp -r",
-    "prepare": "husky install",
-    "verify-commit": "node ./scripts/verifyCommit.js",
     "lint": "echo \"No linting configured\"",
-    "postinstall": "husky install"
+    "verify-commit": "verify-commit-msg",
+    "postinstall": "git-scm-hooks",
+    "release": "bumpp -r"
   },
   "keywords": [],
   "author": "hunghg255",
   "license": "ISC",
   "devDependencies": {
-    "bumpp": "^9.1.1",
-    "husky": "^8.0.3",
-    "verify-commit-msg": "^0.0.4"
+    "bumpp": "^9.2.0",
+    "git-scm-hooks": "^0.0.7",
+    "verify-commit-msg": "^0.0.8"
+  },
+  "git-hooks": {
+    "pre-commit": "npm run lint",
+    "commit-msg": "npm run verify-commit"
   }
 }
