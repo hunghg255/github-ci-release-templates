@@ -4,6 +4,12 @@
 
 ![](public/flow2.png)
 
+## Install
+
+```
+npm install
+```
+
 ## Release
 
 ```
