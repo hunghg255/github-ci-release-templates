@@ -15,7 +15,7 @@
   "devDependencies": {
     "bumpp": "^9.2.0",
     "git-scm-hooks": "^0.0.7",
-    "verify-commit-msg": "^0.0.8"
+    "verify-commit-msg": "^0.0.9"
   },
   "git-hooks": {
     "pre-commit": "npm run lint",
