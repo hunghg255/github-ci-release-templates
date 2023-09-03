@@ -1,4 +1,33 @@
-## v1.0.4 - [2023-08-14](https://github.com/hunghg255/github-ci-release-templates/compare/v1.0.3...v1.0.4)
+## [v1.0.7](https://github.com/hunghg255/github-ci-release-templates/compare/v1.0.6...v1.0.7) - 2023-09-03
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- Update vc &nbsp;-&nbsp; by **hunghg255** [<samp>(de4df)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/de4df31)
+- Update ci &nbsp;-&nbsp; by **hunghg255** [<samp>(c3303)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/c330387)
+- Update ci &nbsp;-&nbsp; by **hunghg255** [<samp>(3ab25)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/3ab252f)
+- Release v1.0.7 &nbsp;-&nbsp; by **hunghg255** [<samp>(48142)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/481421b)
+
+### &nbsp;&nbsp;&nbsp;🦋 Other
+
+- Update README.md &nbsp;-&nbsp; by **Hung Hoang** [<samp>(d2a72)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/d2a72e2)
+- Update README.md &nbsp;-&nbsp; by **Hung Hoang** [<samp>(8e392)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/8e39233)
+- Merge branch 'main' of github.com:hunghg255/github-ci-release-templates &nbsp;-&nbsp; by **hunghg255** [<samp>(71efb)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/71efb63)
+## [v1.0.6](https://github.com/hunghg255/github-ci-release-templates/compare/v1.0.5...v1.0.6) - 2023-08-23
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- Update package.json &nbsp;-&nbsp; by **hunghg255** [<samp>(f36ac)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/f36acca)
+- Update &nbsp;-&nbsp; by **hunghg255** [<samp>(85f98)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/85f9805)
+- Release v1.0.6 &nbsp;-&nbsp; by **hunghg255** [<samp>(c1de9)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/c1de9af)
+## [v1.0.5](https://github.com/hunghg255/github-ci-release-templates/compare/v1.0.4...v1.0.5) - 2023-08-16
+### &nbsp;&nbsp;&nbsp;🐞 Fixes
+
+- Update &nbsp;-&nbsp; by **hunghg255** [<samp>(78e8d)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/78e8d2f)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- Write changelog &nbsp;-&nbsp; by **hunghg255** [<samp>(bc847)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/bc84763)
+- Update changelog &nbsp;-&nbsp; by **hunghg255** [<samp>(c4d41)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/c4d411e)
+- Release v1.0.5 &nbsp;-&nbsp; by **hunghg255** [<samp>(263e3)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/263e378)
+## [v1.0.4](https://github.com/hunghg255/github-ci-release-templates/compare/v1.0.3...v1.0.4) - 2023-08-14
 ### &nbsp;&nbsp;&nbsp;🐞 Fixes
 
 - Update verify commit &nbsp;-&nbsp; by **hunghg255** [<samp>(f0955)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/f09553f)
@@ -14,7 +43,7 @@
 ### &nbsp;&nbsp;&nbsp;🤖 CI
 
 - Update ci &nbsp;-&nbsp; by **hunghg255** [<samp>(3e2be)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/3e2be74)
-## v1.0.3 - [2023-08-14](https://github.com/hunghg255/github-ci-release-templates/compare/v1.0.2...v1.0.3)
+## [v1.0.3](https://github.com/hunghg255/github-ci-release-templates/compare/v1.0.2...v1.0.3) - 2023-08-14
 ### &nbsp;&nbsp;&nbsp;🚨 Breaking Changes
 
 - Breaking change &nbsp;-&nbsp; by **hunghg255** [<samp>(fdc28)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/fdc2890)
@@ -92,7 +121,7 @@
 
 - Workflow &nbsp;-&nbsp; by **hunghg255** [<samp>(f8448)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/f84481a)
 - Update workflow &nbsp;-&nbsp; by **hunghg255** [<samp>(821a2)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/821a20f)
-## v1.0.2 - [2023-08-07](https://github.com/hunghg255/github-ci-release-templates/compare/v1.0.1...v1.0.2)
+## [v1.0.2](https://github.com/hunghg255/github-ci-release-templates/compare/v1.0.1...v1.0.2) - 2023-08-07
 ### &nbsp;&nbsp;&nbsp;📦 Build
 
 - Fix build &nbsp;-&nbsp; by **hunghg255** [<samp>(9371f)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/9371f0b)
@@ -100,7 +129,7 @@
 ### &nbsp;&nbsp;&nbsp;🏡 Chore
 
 - Release v1.0.2 &nbsp;-&nbsp; by **hunghg255** [<samp>(8466f)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/8466f51)
-## v1.0.1 - [2023-08-07](https://github.com/hunghg255/github-ci-release-templates/compare/d9cc094f0e002e762a306113af7b3cf85d975d0a...v1.0.1)
+## [v1.0.1](https://github.com/hunghg255/github-ci-release-templates/compare/d9cc094f0e002e762a306113af7b3cf85d975d0a...v1.0.1) - 2023-08-07
 ### &nbsp;&nbsp;&nbsp;🚨 Breaking Changes
 
 - Add feature 3 &nbsp;-&nbsp; by **hunghg255** [<samp>(99fb6)</samp>](https://github.com/hunghg255/github-ci-release-templates/commit/99fb6af)
