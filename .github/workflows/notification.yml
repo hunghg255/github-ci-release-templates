@@ -22,12 +22,12 @@ jobs:
         with:
           webhook: ${{ secrets.DISCORD_URL }}
 
-notifification:
-    needs: deploy
-    runs-on: ubuntu-latest
+  notifification:
+      needs: deploy
+      runs-on: ubuntu-latest
 
-    steps:
-      - uses: hunghg255/action-notifications@master
-        if: always()
-        with:
-          webhook: ${{ secrets.DISCORD_URL }}
+      steps:
+        - uses: hunghg255/action-notifications@master
+          if: always()
+          with:
+            webhook: ${{ secrets.DISCORD_URL }}
