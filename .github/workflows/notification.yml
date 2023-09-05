@@ -31,8 +31,8 @@ jobs:
 
     steps:
       - name: Notification Success
-      - uses: hunghg255/action-notifications@master
         if: always()
+        uses: hunghg255/action-notifications@master
         with:
           discord_webhook: ${{ secrets.DISCORD_WEBHOOK }}
           slack_webhook: ${{ secrets.SLACK_WEBHOOK }}
