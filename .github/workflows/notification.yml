@@ -1,0 +1,33 @@
+name: Notification
+
+on:
+  push:
+    branches:
+      - noti
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Build and lint
+        run: |
+          echo "Build and lint"
+
+      - name: On Failure
+        if: failure()
+        uses: hunghg255/action-notifications@master
+        with:
+          webhook: ${{ secrets.DISCORD_URL }}
+
+notifification:
+    needs: deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: hunghg255/action-notifications@master
+        if: always()
+        with:
+          webhook: ${{ secrets.DISCORD_URL }}
