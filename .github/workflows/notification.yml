@@ -3,7 +3,7 @@ name: Notification
 on:
   push:
     branches:
-      - noti
+      - noti1
 
 jobs:
   deploy:
