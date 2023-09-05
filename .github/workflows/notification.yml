@@ -37,4 +37,4 @@ jobs:
           discord_webhook: ${{ secrets.DISCORD_WEBHOOK }}
           slack_webhook: ${{ secrets.SLACK_WEBHOOK }}
           title: "Deploy to Dev"
-          description: "Test her1e: https://hung.thedev.id"
+          description: "Test here: https://hung.thedev.id"
