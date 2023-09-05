@@ -20,8 +20,10 @@ jobs:
         if: failure()
         uses: hunghg255/action-notifications@master
         with:
-          discord_webhook: 'discord_webhook'
-          slack_webhook: 'slack_webhook'
+          discord_webhook: ${{ secrets.DISCORD_WEBHOOK }}
+          slack_webhook: ${{ secrets.SLACK_WEBHOOK }}
+          title: "Deploy: Success"
+          description: "Test deploy success"
 
   notifification:
       needs: deploy
@@ -31,5 +33,7 @@ jobs:
         - uses: hunghg255/action-notifications@master
           if: always()
           with:
-            discord_webhook: 'discord_webhook'
-            slack_webhook: 'slack_webhook'
+            discord_webhook: ${{ secrets.DISCORD_WEBHOOK }}
+            slack_webhook: ${{ secrets.SLACK_WEBHOOK }}
+            title: "Deploy: Success"
+            description: "Test deploy success"
