@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Notification Success 1
+      - name: Notification Success
         uses: hunghg255/action-notifications@master
         if: always()
         with:
