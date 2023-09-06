@@ -1,4 +1,4 @@
-# Github CI release template 1
+# Github CI release template 1 2
 
 
 ## Install
