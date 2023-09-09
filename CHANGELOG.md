@@ -1,3 +1,33 @@
+## v1.0.8
+
+[compare changes](https://github.com/hunghg255/github-ci-release-templates/compare/v1.0.7...v1.0.8)
+
+### 🏡 Chore
+
+- Update ([9a7d332](https://github.com/hunghg255/github-ci-release-templates/commit/9a7d332))
+- Update ([34c537d](https://github.com/hunghg255/github-ci-release-templates/commit/34c537d))
+- Update ([4035cbf](https://github.com/hunghg255/github-ci-release-templates/commit/4035cbf))
+- Update ([a84731f](https://github.com/hunghg255/github-ci-release-templates/commit/a84731f))
+- Update ([9decf4d](https://github.com/hunghg255/github-ci-release-templates/commit/9decf4d))
+- Update ([81803c1](https://github.com/hunghg255/github-ci-release-templates/commit/81803c1))
+- Update ([dbf4c91](https://github.com/hunghg255/github-ci-release-templates/commit/dbf4c91))
+- Update slack ([418724b](https://github.com/hunghg255/github-ci-release-templates/commit/418724b))
+- Update slack ([0fdb082](https://github.com/hunghg255/github-ci-release-templates/commit/0fdb082))
+- Update slack ([3f78aa6](https://github.com/hunghg255/github-ci-release-templates/commit/3f78aa6))
+- Update slack ([d2007e6](https://github.com/hunghg255/github-ci-release-templates/commit/d2007e6))
+- Update slack ([5a3e6d6](https://github.com/hunghg255/github-ci-release-templates/commit/5a3e6d6))
+- Update ([e1808cb](https://github.com/hunghg255/github-ci-release-templates/commit/e1808cb))
+- Update telegram ([bdd9253](https://github.com/hunghg255/github-ci-release-templates/commit/bdd9253))
+- Update 1 ([a8f3536](https://github.com/hunghg255/github-ci-release-templates/commit/a8f3536))
+- Update 2 ([1164f8b](https://github.com/hunghg255/github-ci-release-templates/commit/1164f8b))
+- Update 3 ([1ede66d](https://github.com/hunghg255/github-ci-release-templates/commit/1ede66d))
+- Update 4 ([329edb5](https://github.com/hunghg255/github-ci-release-templates/commit/329edb5))
+- Update slack ([b43639a](https://github.com/hunghg255/github-ci-release-templates/commit/b43639a))
+
+### ❤️ Contributors
+
+- Hunghg255 <giahunghust@gmail.com>
+
 ## [v1.0.7](https://github.com/hunghg255/github-ci-release-templates/compare/v1.0.6...v1.0.7) - 2023-09-03
 ### &nbsp;&nbsp;&nbsp;🏡 Chore
 
