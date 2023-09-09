@@ -18,11 +18,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Notification Slack
-        if: always()
-        uses: hunghg255/action-notifications@master
-        with:
-          slack_webhook: ${{ secrets.SLACK_NOTI }}
   lint:
     runs-on: ubuntu-latest
     steps:
