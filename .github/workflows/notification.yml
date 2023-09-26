@@ -1,4 +1,4 @@
-name: Notification
+name: Notification1
 
 on:
   push:
