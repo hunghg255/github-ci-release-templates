@@ -24,7 +24,7 @@ jobs:
           # slack_webhook: ${{ secrets.SLACK_WEBHOOK }}
           # telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           # telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
-          # ms_teams_webhook: ${{ secrets.MS_WEBHOOK }}
+          ms_teams_webhook: ${{ secrets.MS_WEBHOOK }}
           google_chat_webhook: ${{ secrets.GOOGLE_CHAT_WEBHOOK }}
           title: "Deploy to Dev"
           description: "Test here: https://hung.thedev.id"
@@ -42,7 +42,7 @@ jobs:
           # slack_webhook: ${{ secrets.SLACK_WEBHOOK }}
           # telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           # telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
-          # ms_teams_webhook: ${{ secrets.MS_WEBHOOK }}
+          ms_teams_webhook: ${{ secrets.MS_WEBHOOK }}
           google_chat_webhook: ${{ secrets.GOOGLE_CHAT_WEBHOOK }}
           title: "Deploy to Dev"
           description: "Test here: https://hung.thedev.id"
