@@ -1,21 +1,18 @@
 {
   "name": "github-ci-release-template",
-  "version": "1.0.14",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "lint": "echo \"No linting configured\"",
     "verify-commit": "verify-commit-msg",
-    "postinstall": "git-scm-hooks",
-    "release": "bumpp-version"
+    "postinstall": "git-scm-hooks"
   },
   "keywords": [],
   "author": "hunghg255",
   "license": "ISC",
   "devDependencies": {
     "bumpp": "^9.2.0",
-    "bumpp-version": "^1.0.0",
     "git-scm-hooks": "^0.0.7",
     "verify-commit-msg": "^0.0.9"
   },
