@@ -3,26 +3,24 @@
   "version": "1.0.13",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "lint": "echo \"No linting configured\"",
     "verify-commit": "verify-commit-msg",
     "postinstall": "git-scm-hooks",
-    "release": "bumpp -r"
+    "release": "bumpp-version"
   },
   "keywords": [],
   "author": "hunghg255",
   "license": "ISC",
   "devDependencies": {
     "bumpp": "^9.2.0",
+    "bumpp-version": "^0.0.4",
     "git-scm-hooks": "^0.0.7",
     "verify-commit-msg": "^0.0.9"
   },
   "git-hooks": {
     "pre-commit": "npm run lint",
     "commit-msg": "npm run verify-commit"
-  },
-  "dependencies": {
-    "enquirer": "^2.4.1",
-    "minimist": "^1.2.8"
   }
 }
