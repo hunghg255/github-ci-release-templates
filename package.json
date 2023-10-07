@@ -1,6 +1,6 @@
 {
   "name": "github-ci-release-template",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -15,7 +15,7 @@
   "license": "ISC",
   "devDependencies": {
     "bumpp": "^9.2.0",
-    "bumpp-version": "^0.0.4",
+    "bumpp-version": "^1.0.0",
     "git-scm-hooks": "^0.0.7",
     "verify-commit-msg": "^0.0.9"
   },
