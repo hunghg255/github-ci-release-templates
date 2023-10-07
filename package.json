@@ -1,6 +1,6 @@
 {
   "name": "github-ci-release-template",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,9 @@
   "git-hooks": {
     "pre-commit": "npm run lint",
     "commit-msg": "npm run verify-commit"
+  },
+  "dependencies": {
+    "enquirer": "^2.4.1",
+    "minimist": "^1.2.8"
   }
 }
