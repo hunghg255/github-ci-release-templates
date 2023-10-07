@@ -144,20 +144,20 @@ async function main () {
   step(`\nUpdating ${pkg.type} version...`)
   pkg.updateVersion(targetVersion)
 
-  step(`\nBuilding ${pkg.type}...`)
-  if (!skipBuild && !isDryRun)
-    run('pnpm', ['build'], { cwd: resolve('.') })
-  else
-    console.log('(skipped)')
+  // step(`\nBuilding ${pkg.type}...`)
+  // if (!skipBuild && !isDryRun)
+  //   run('pnpm', ['build'], { cwd: resolve('.') })
+  // else
+  //   console.log('(skipped)')
 
-  step('\nGenerating changelog...')
-  runIfNotDry('pnpm', ['changelog', name])
+  // step('\nGenerating changelog...')
+  // runIfNotDry('pnpm', ['changelog', name])
 
   const { stdout } = run('git', ['diff'], { stdio: 'pipe' })
   if (stdout) {
     step('\nCommitting changes...')
     runIfNotDry('git', ['add', '-A'])
-    runIfNotDry('git', ['commit', '-m', `release: ${tag}`])
+    runIfNotDry('git', ['commit', '-m', `chore: release ${tag}`])
   }
   else {
     console.log('No changes to commit.')
@@ -175,25 +175,25 @@ async function main () {
   console.log()
 }
 
-/**
- * @param {string} version
- * @param {Function} runIfNotDry
- */
-async function publishPackage (version, runIfNotDry) {
-  try {
-    runIfNotDry('pnpm', ['publish'], {
-      stdio: 'inherit',
-      cwd: resolve('.'),
-    })
-    console.log(colors.green(`Successfully published ${name}@${version}`))
-  }
-  catch (e) {
-    if (e.stderr.match(/previously published/))
-      console.log(colors.red(`Skipping already published: ${name}`))
-    else
-      throw e
-  }
-}
+// /**
+//  * @param {string} version
+//  * @param {Function} runIfNotDry
+//  */
+// async function publishPackage (version, runIfNotDry) {
+//   try {
+//     runIfNotDry('pnpm', ['publish'], {
+//       stdio: 'inherit',
+//       cwd: resolve('.'),
+//     })
+//     console.log(colors.green(`Successfully published ${name}@${version}`))
+//   }
+//   catch (e) {
+//     if (e.stderr.match(/previously published/))
+//       console.log(colors.red(`Skipping already published: ${name}`))
+//     else
+//       throw e
+//   }
+// }
 
 main().catch((err) => {
   console.error(err)
