@@ -20,5 +20,9 @@
   "git-hooks": {
     "pre-commit": "npm run lint",
     "commit-msg": "npm run verify-commit"
+  },
+  "dependencies": {
+    "enquirer": "^2.4.1",
+    "minimist": "^1.2.8"
   }
 }
