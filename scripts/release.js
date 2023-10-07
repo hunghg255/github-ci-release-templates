@@ -168,6 +168,7 @@ async function main () {
 
   step('\nPushing to GitHub...')
   runIfNotDry('git', ['push'])
+  runIfNotDry('git', ['push', '--tags'])
 
   if (isDryRun)
     console.log(`\nDry run finished - run git diff to see ${pkg.type} changes.`)
