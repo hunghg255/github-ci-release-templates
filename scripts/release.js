@@ -157,7 +157,7 @@ async function main () {
   if (stdout) {
     step('\nCommitting changes...')
     runIfNotDry('git', ['add', '-A'])
-    // runIfNotDry('git', ['commit', '-m', `chore: release ${tag}`])
+    runIfNotDry('git', ['commit', '-m', `chore: release ${tag}`])
     runIfNotDry('git', ['tag', "-a", tag, '-m', `chore: release ${tag}`])
 
   }
