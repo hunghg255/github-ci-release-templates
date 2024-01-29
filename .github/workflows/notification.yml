@@ -27,8 +27,7 @@ jobs:
           # ms_teams_webhook: ${{ secrets.MS_WEBHOOK }}
           # google_chat_webhook: ${{ secrets.GOOGLE_CHAT_WEBHOOK }}
           title: "Deploy to Dev"
-          description: "Test here: `https://hung.thedev.id`"
-          qrcode: https://hung.thedev.id
+          description: "Test here: https://hung.thedev.id"
 
   notifification:
     needs: deploy
@@ -46,5 +45,4 @@ jobs:
           # ms_teams_webhook: ${{ secrets.MS_WEBHOOK }}
           # google_chat_webhook: ${{ secrets.GOOGLE_CHAT_WEBHOOK }}
           title: "Deploy to Dev"
-          description: "Test here: `https://hung.thedev.id`"
-          qrcode: https://hung.thedev.id
+          description: "Test here: https://hung.thedev.id"
